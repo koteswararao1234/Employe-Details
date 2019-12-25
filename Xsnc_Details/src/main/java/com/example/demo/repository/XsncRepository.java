@@ -1,5 +1,11 @@
 package com.example.demo.repository;
 
-public interface XsncRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.Xsnc;
+
+@Repository
+public interface XsncRepository extends JpaRepository<Xsnc, Long> {
 
 }
