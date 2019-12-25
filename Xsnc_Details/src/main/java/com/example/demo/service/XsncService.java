@@ -18,6 +18,11 @@ public class XsncService {
 
 		Xsnc xsnc = new Xsnc();
 		BeanUtils.copyProperties(sncDto, xsnc);
+		/*
+		 * xsnc.setXsncId(sncDto.getXsncId()); xsnc.setServiceId(sncDto.getServiceId());
+		 * xsnc.setTrailId(sncDto.getTrailId());
+		 * xsnc.setTrailName(sncDto.getTrailName());
+		 */
 		xsncRepository.save(xsnc);
 
 	}

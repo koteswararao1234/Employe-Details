@@ -10,7 +10,7 @@ import com.example.demo.dto.XsncDto;
 import com.example.demo.service.XsncService;
 
 @RestController
-@RequestMapping("xsnc")
+@RequestMapping("/xsnc")
 public class XsncController {
 
 	@Autowired
